@@ -94,8 +94,21 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "erles-homepage:build:production",
+            "firebaseProject": "erles-homepage",
+            "firebaseHostingSite": "erles-homepage"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "c90decff-e470-457c-813e-2e2cf2fbeeb9"
   }
 }

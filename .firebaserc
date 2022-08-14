@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "erles-homepage": {
+      "hosting": {
+        "erles-homepage": [
+          "erles-homepage"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "erles-homepage"
+  }
+}
